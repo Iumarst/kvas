@@ -13,6 +13,6 @@ with open('student.txt',encoding = 'utf-8') as file
         student = Student(data[0], data[1], data[2], data[3]) 
         students.append(student) 
  
-print({4}{35}{8}{6}.format(ID, FIO, var, GROUP)) 
+print({4}{35}{8}{6}.format("ID", "FIO", "VAR", "GROUP")) 
 for student in students 
     print({4}{35}{8}{6}.format(student.id, student.name, student.age, student.group))
